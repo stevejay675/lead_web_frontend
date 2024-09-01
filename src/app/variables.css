@@ -1,0 +1,24 @@
+:root {
+    --color-darker-shade: #3A046E; 
+    --color-normal-shade: #4C0593; 
+    --color-intermediate-light-shade: #7A3BB5;
+    --color-very-light-shade: #F1E6FB; 
+    --default-background-color: #fff;
+    
+    /* Default Font Sizes */
+    --font-size-small: 12px;
+    --font-size-medium: 16px;
+    --font-size-large: 20px;
+    --font-size-heading: 32px;
+  
+    /* Default Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+  
+    /* Default Border Radius */
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --border-radius-large: 16px;
+  }
+  

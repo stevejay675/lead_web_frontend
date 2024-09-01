@@ -1,0 +1,55 @@
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--color-intermediate-light-shade);
+  padding: 20px 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.newsletter .news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter div h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  letter-spacing: 0.7px;
+}
+
+.newsletter div small {
+  color: #ddd;
+}
+
+.newsletter div small span {
+  color: #000;
+  cursor: pointer;
+}
+
+.textArea {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding-left: 10px;
+}
+
+.textArea button {
+  background-color: var(--color-darker-shade);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.newsletter div input {
+  width: 70%;
+  background-color: transparent;
+  outline: none;
+  border: transparent;
+}
