@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import "./footer.css";
+import './footer.css';
 import {
   FaFacebookF,
   FaInstagram,
@@ -9,8 +9,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
-} from "react-icons/fa";
-import Image from "next/image";
+} from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -78,26 +77,53 @@ function Footer() {
           </div>
         </div>
 
-        <div className="footer-section payment-section">
-          <h3>Our Payment Systems</h3>
-          <div className="payment-icons">
-            <img
-              src="images/paypal.png"
-              alt="PayPal"
-              className="payment-icon"
-            />
-            <img src="images/mtn.png" alt="MTN MoMo" className="payment-icon" />
-            <img src="images/btc.jpeg" alt="Bitcoin" className="payment-icon" />
-            <img
-              src="images/visacard.jpeg"
-              alt="Visa"
-              className="payment-icon"
-            />
-            <img
-              src="images/mastercard.png"
-              alt="MasterCard"
-              className="payment-icon"
-            />
+        {/* Download App and Payment Systems Section */}
+        <div className="footer-section appdownload-and-payment">
+          <div className="download-app">
+            <h3>Download Our App</h3>
+            <div className="app-badges">
+              <img
+                src="images/AppStoreBadge.svg"
+                alt="Download on the App Store"
+                className="app-icon"
+              />
+              <img
+                src="images/google-play-badge.png"
+                alt="Get it on Google Play"
+                className="app-icon"
+              />
+            </div>
+          </div>
+
+          <div className="payment-section">
+            <h3>Our Payment Systems</h3>
+            <div className="payment-icons">
+              <img
+                src="images/paypal.png"
+                alt="PayPal"
+                className="payment-icon"
+              />
+              <img
+                src="images/mtn.png"
+                alt="MTN MoMo"
+                className="payment-icon"
+              />
+              <img
+                src="images/btc.jpeg"
+                alt="Bitcoin"
+                className="payment-icon"
+              />
+              <img
+                src="images/visacard.jpeg"
+                alt="Visa"
+                className="payment-icon"
+              />
+              <img
+                src="images/mastercard.png"
+                alt="MasterCard"
+                className="payment-icon"
+              />
+            </div>
           </div>
         </div>
       </div>
