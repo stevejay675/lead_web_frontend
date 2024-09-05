@@ -3,6 +3,9 @@
 import  './Navbar.css'; 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import Sidebar from '../sidebar/sidebar';
+
 
 
 function Navbar() {
@@ -31,21 +34,42 @@ function Navbar() {
     };
   }, []);
 
+
+  //sidebar
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(prev => !prev);
+  };
+
+  const closeSidebar = () => {
+    setSidebarOpen(false);
+  };
+
   return (
     <nav className={`navbar ${[position]}`}>
       <img src={`${logo}`}/>
       <ul className="nav-links">
-        <li>Home</li>
-        <li>Service</li>
-        <li>About Us</li>
-        <li>Contact</li>
-        
-        <div>
-          <a className='login-btn'>Login</a>
-          <a className='signup-btn'>SignUp</a>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#service'>Services</a></li>
+        <li><a href='#about'>About us</a></li>
+        <li><a href='#partners'>Partners</a></li>
+
+        <div> 
+          <a className='get-the-app'>Get the App</a>
         </div>
       </ul>
+
+      <div className='hamburger-menu' onClick={toggleSidebar}>
+         <span className='hamburger-menu-line'></span>
+         <span className='hamburger-menu-line'></span>
+         <span className='hamburger-menu-line'></span>
+      </div>
+
+      <Sidebar isOpen={isSidebarOpen} onClose={closeSidebar} />
     </nav>
+
+    
   );
 }
 

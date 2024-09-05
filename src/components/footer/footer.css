@@ -4,6 +4,23 @@
   padding: 40px 20px;
 }
 
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 80px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1px solid ;
+}
+
+.contact-section ul{
+display: flex;
+justify-content: space-between;
+gap: 100px;
+
+}
+
 .footer-container {
   display: flex;
   flex-wrap: wrap;
@@ -42,24 +59,9 @@
   color: var(--color-intermediate-light-shade);
 }
 
-.social-icons {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
 
-.social-icons a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s, background-color 0.3s;
-}
+
+
 
 .social-icons a:hover {
   color: #fff;
@@ -79,6 +81,7 @@
 .appdownload-and-payment {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 100px;
   border-top: 1px solid #4b515d; 
   padding-top: 20px;
@@ -89,7 +92,7 @@
 .download-app {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
 }
 
 .app-badges {
@@ -104,14 +107,14 @@
 }
 
 .app-icon:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 
 .payment-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
 }
 
 .payment-icons {
@@ -130,3 +133,38 @@
 .payment-icon:hover {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 600px) {
+  .footer{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-section ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .appdownload-and-payment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+

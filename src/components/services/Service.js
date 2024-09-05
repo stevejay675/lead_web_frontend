@@ -24,28 +24,28 @@ function Service() {
         <div className='service-card'>
           <img src='images/service-img3.png'/>
           <h2>Best Quality</h2>
-          <p>Delivery that is always on time and even faster </p>
+          <p>Get the best quality recipe from LoopEats restaurants</p>
         </div>
 
         <div className='service-card'>
           <img src='images/service-img4.png'/>
           <h2>Easy  to order</h2>
           <p>You only need a few steps in ordering</p>
-          <a><p>Start Earning</p> <FaArrowRight /></a>
+          <a><p>Start Ordering</p> <FaArrowRight /></a>
         </div>
 
         <div className='service-card'>
           <img src='images/service-img5.png'/>
-          <h2>Easy  to order</h2>
-          <p>You only need a few steps in ordering</p>
-          <a><p>Start Earning</p> <FaArrowRight /></a>
+          <h2>Become a Merchant</h2>
+          <p>Grow your Restaurants with LoopEats. Partner with us and reach more customers effortlessly.</p>
+          <a><p>Partner Now</p> <FaArrowRight /></a>
         </div>
 
         <div className='service-card'>
           <img src='images/service-img6.jpg'/>
-          <h2>Easy  to order</h2>
-          <p>You only need a few steps in ordering</p>
-          <a><p>Start Earning</p> <FaArrowRight /></a>
+          <h2>Get the app</h2>
+          <p>download and get the best of LoopEats from our app</p>
+          <a><p>Download App</p> <FaArrowRight /></a>
         </div>
       </div>
     </section>

@@ -1,0 +1,62 @@
+.bodybanner-section{
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px 40px;
+}
+
+.bodybanner-section h1{
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.bodybanner-section .banner-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 10px 40px;
+}
+
+.bodybanner-section .banner-text div{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bodybanner-section .banner-text  div h2{
+    font-size: 1.7rem;
+}
+
+.bodybanner-section .blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(103, 2, 161, 0.6);
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .bodybanner-section{
+        height: 100vh;
+    }
+
+    .banner-text{
+        display: flex;
+        flex-direction: column;
+    }
+  }

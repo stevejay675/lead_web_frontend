@@ -4,9 +4,9 @@ import "./banner.css";
 function Banner() {
   return (
     <section className="banner-section">
-      <img src="/images/banner2.jpg" alt="Restaurant Banner" />
+      <img src="/images/ndole-3.jpg" alt="Restaurant Banner" />
       <div className="banner-text">
-        <h2>Discover restaurants and more near you.</h2>
+        <h2>Explore new flavors and rediscover your favorites with LoopEats</h2>
         <button>Order Now</button>
       </div>
 

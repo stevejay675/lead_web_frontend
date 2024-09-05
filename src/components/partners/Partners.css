@@ -1,5 +1,5 @@
 .partners-section {
-  padding: 60px 40px;
+  padding: 60px 60px;
 }
 
 .partners-section h2 {
@@ -10,11 +10,11 @@
 .partners-section div {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 50px;
 }
 
 .partners-section div img {
-  width: 8%;
+  width: 10%;
   cursor: pointer;
   height: auto;
 }

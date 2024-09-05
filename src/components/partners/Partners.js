@@ -1,5 +1,8 @@
+"use client"
+
 import "./Partners.css";
 import Image from "next/image";
+
 
 function Partners() {
   return (

@@ -7,7 +7,7 @@ function Newsletter() {
       <div className="news">
         <h2>Sign up for Newsletter</h2>
         <small>
-          get emailed about our latest shop and <span>special offers</span>
+          get emailed about our <b>special offers</b>
         </small>
       </div>
 

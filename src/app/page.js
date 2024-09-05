@@ -6,6 +6,8 @@ import Footer from "@/components/footer/Footer";
 import Partners from "@/components/partners/Partners";
 import Othersection from "@/components/othersection/othersection";
 import Newsletter from "@/components/newsletter/newsletter";
+import Sidebar from "@/components/sidebar/sidebar";
+
 import "./globals.css";
 
 export default function Home() {
@@ -13,9 +15,11 @@ export default function Home() {
     <div>
       <Navbar />
       <Banner />
-      <Service />
+      
+      <Sidebar />
+      <section id="service"><Service /></section>
       <Othersection />
-      <Partners />
+      <section id="partners"><Partners /></section>
       <Newsletter />
       <Footer />
     </div>

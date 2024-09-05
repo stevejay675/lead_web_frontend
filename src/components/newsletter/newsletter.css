@@ -26,17 +26,14 @@
   color: #ddd;
 }
 
-.newsletter div small span {
-  color: #000;
-  cursor: pointer;
-}
+
 
 .textArea {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
+  max-width: 300px;
   padding-left: 10px;
 }
 
@@ -52,4 +49,12 @@
   background-color: transparent;
   outline: none;
   border: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

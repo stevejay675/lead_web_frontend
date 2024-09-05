@@ -53,4 +53,14 @@
   }
 
 
-  
+  @media screen and (max-width: 600px) {
+    .service-cards{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .service-cards .service-card{
+      width: 100%;
+    }
+  }
