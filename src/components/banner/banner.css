@@ -35,6 +35,8 @@
   cursor: pointer;
   font-size: 20px;
   border-radius: 20px;
+  margin: auto;
+  align-self: center;
 }
 
 .banner-text button:hover {
